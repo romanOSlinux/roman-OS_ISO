@@ -4,7 +4,8 @@
 
 ![roman-OS Logo](roman-OS-xfce.jpg)
 
-!roman-OS Logo](roman-OS-chadwm.jpg)
+!![roman-OS Logo](roman-OS-chadwm.jpg)
+
 
 
 roman-OS mi escritorio personal:
