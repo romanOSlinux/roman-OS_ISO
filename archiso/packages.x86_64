@@ -355,7 +355,7 @@ qt5ct
 ripgrep
 simple-scan
 #telegram-desktop
-tlp
+#tlp
 tree
 unace
 unrar
@@ -456,7 +456,7 @@ icoutils
 #libappindicator
 noto-fonts
 noto-fonts-emoji
-ttf-noto-nerd 
+#ttf-noto-nerd 
 power-profiles-daemon
 #qt-imageformats
 plasma-framework5
