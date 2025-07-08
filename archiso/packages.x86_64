@@ -165,9 +165,17 @@ xorg-apps
 xorg-xinit
 
 ###video
-xf86-input-elographics
+libva-intel-driver
+lib32-libva-intel-driver
+mesa
+lib32-mesa
+vulkan-intel
+lib32-vulkan-intel
+xorg-server
+xorg-xinit
+#xf86-input-elographics
 #xf86-input-evdev
-xf86-input-libinput
+#xf86-input-libinput
 #xf86-input-vmmouse
 #xf86-input-void
 #xf86-video-amdgpu
@@ -178,7 +186,7 @@ xf86-input-libinput
 #xf86-video-openchrome
 #xf86-video-vesa
 #xf86-video-vmware
-mesa
+#mesa
 
 ###hardware video support
 nvidia-dkms
@@ -190,33 +198,39 @@ nvidia-settings
 base-devel
 
 ###virtual box or vmware
-virtualbox-guest-utils
+#virtualbox-guest-utils
 
 ###packages for dual boot
 os-prober
 
 ###audio
-alsa-firmware
-alsa-plugins
-alsa-lib
-alsa-utils
-gst-libav
-gst-plugins-bad
-gst-plugins-base
-gst-plugins-good
-gst-plugins-ugly
-gstreamer
-libdvdcss
-pulseaudio
-pulseaudio-alsa
-pavucontrol
+pipewire
+pipewire-alsa
+pipewire-audio
+pipewire-jack
+pipewire-pulse
+
+#alsa-firmware
+#alsa-plugins
+#alsa-lib
+#alsa-utils
+#gst-libav
+#gst-plugins-bad
+#gst-plugins-base
+#gst-plugins-good
+#gst-plugins-ugly
+#gstreamer
+#libdvdcss
+#pulseaudio
+#pulseaudio-alsa
+#pavucontrol
 
 ###bluetooth
 blueberry
 bluez
 bluez-libs
 bluez-utils
-pulseaudio-bluetooth
+#pulseaudio-bluetooth
 
 ###network
 avahi
@@ -245,13 +259,13 @@ udisks2
 xdg-user-dirs
 
 ###printers
-cups
-cups-filters
-cups-pdf
-ghostscript
-gsfonts
-gutenprint
-system-config-printer
+#cups
+#cups-filters
+#cups-pdf
+#ghostscript
+#gsfonts
+#gutenprint
+#system-config-printer
 
 ###tumbler
 tumbler
@@ -262,26 +276,30 @@ libopenraw
 poppler-glib
 poppler-qt5
 
+#grub
+grub
+efibootmgr
+
 #########################################################################
 #                  SOFTWARE FROM ARCH LINUX REPOSITORIES
 #########################################################################
 
 ###applications
-chromium
+#chromium
 dmenu
-firefox
-galculator
-gimp
-imagemagick
-inkscape
+#firefox
+#galculator
+#gimp
+#imagemagick
+#inkscape
 lshw
 meld
 nitrogen
 numlockx
 qbittorrent
 scrot
-simplescreenrecorder-qt6-git
-variety
+#simplescreenrecorder-qt6-git
+#variety
 vlc
 
 lm_sensors
@@ -301,7 +319,7 @@ ttf-ubuntu-font-family
 kvantum-qt5
 
 ###utilities
-arandr
+#arandr
 bash-completion
 baobab
 bat
@@ -318,7 +336,7 @@ git
 gnome-disk-utility
 gnome-keyring
 gnome-screenshot
-gparted
+#gparted
 gpick
 hardinfo2
 hwinfo
@@ -327,7 +345,7 @@ laptop-detect
 lsb-release
 plocate
 nomacs
-oh-my-zsh-git
+#oh-my-zsh-git
 p7zip
 pkgfile
 playerctl
@@ -346,20 +364,20 @@ xapp
 xdg-desktop-portal-gtk
 yt-dlp
 zenity
-zsh
-zsh-completions
-zsh-syntax-highlighting
+#zsh
+#zsh-completions
+#zsh-syntax-highlighting
 
 ###########################################################################
 #                           REPOS
 ###########################################################################
 
 ###applications
-vivaldi
-vivaldi-ffmpeg-codecs
+#vivaldi
+#vivaldi-ffmpeg-codecs
 
 ###cursors
-bibata-cursor-theme
+#bibata-cursor-theme
 
 ###icons
 numix-icon-theme-git
@@ -371,28 +389,28 @@ surfn-icons-git
 mkinitcpio-openswap
 
 ###utilities
-alacritty
+#alacritty
 appstream
 appstream-qt5
 archlinux-tools
 downgrade
 fastfetch-git
 font-manager
-gitahead
+#gitahead
 hardcode-fixer-git
 inxi
 mintstick
-neofetch-git
+#neofetch-git
 paru-git
 python-pyparted
 python-pywal
 rate-mirrors
 sublime-text-4
 the_silver_searcher
-visual-studio-code-bin
+#visual-studio-code-bin
 wttr
 yad
-yay-git
+#yay-git
 
 ###########################################################################
 ####                               CALAMARES
@@ -416,13 +434,56 @@ sddm-git
 ####                           DESKTOP MANAGERS
 ###########################################################################
 
-xfce4
-xfce4-goodies
+plasma-desktop
+konsole
+dolphin
+kcalc
+okular
+spectacle
+kate
+kdeplasma-addons
+kscreen
+dolphin-plugins
+ffmpegthumbs
+kimageformats
+kio-admin
+kio-extras
+phonon-qt6-vlc
+#AURxwaylandvideobridge
+qqc2-desktop-style
+icoutils
+#libappindicator
+noto-fonts
+noto-fonts-emoji
+ttf-noto-nerd 
+power-profiles-daemon
+#qt-imageformats
+plasma-framework5
+plasma-systemmonitor
+plasma-pa
+plasma-nm
+kde-gtk-config
+breeze-gtk
+nano
+git
+fastfetch
+btop
+kinfocenter
+plasma-firewall
+#ufw
+
+#xfce4
+#xfce4-goodies
 
 ###########################################################################
 ####                       APPS
 ###########################################################################
 
+firefox
+firefox-i18n-es-ar
+firefox-dark-reader
+firefox-noscript
+firefox-ublock-origin
 brave-bin
 btop
 devtools
@@ -448,7 +509,7 @@ ttf-font-awesome
 ttf-jetbrains-mono-nerd
 variety
 vimix-cursors
-yad
+#yad
 
 ###########################################################################
 ####                               CHAOTICS AUR
@@ -478,23 +539,23 @@ chaotic-mirrorlist
 #edu-vimix-dark-tela-git
 arc-gtk-theme
 archlinux-logout-git
-archlinux-tweak-tool-git
-edu-arc-dawn-git
-edu-arc-kde
-edu-dot-files-git
-edu-hblock-git
-edu-neo-candy-arc-git
-edu-neo-candy-arc-mint-grey-git
-edu-neo-candy-arc-mint-red-git
-edu-neo-candy-qogir-git
-edu-neo-candy-tela-git
-edu-polybar-git
-edu-rofi-git
-edu-rofi-themes-git
-edu-sddm-simplicity-git
-edu-shells-git
-edu-variety-config-git
-edu-xfce-git
+#archlinux-tweak-tool-git
+#edu-arc-dawn-git
+#edu-arc-kde
+#edu-dot-files-git
+#edu-hblock-git
+#edu-neo-candy-arc-git
+#edu-neo-candy-arc-mint-grey-git
+#edu-neo-candy-arc-mint-red-git
+#edu-neo-candy-qogir-git
+#edu-neo-candy-tela-git
+#edu-polybar-git
+#edu-rofi-git
+#edu-rofi-themes-git
+#edu-sddm-simplicity-git
+#edu-shells-git
+#edu-variety-config-git
+#edu-xfce-git
 flameshot-git
 gitahead-git
 hardcode-fixer-git
@@ -503,7 +564,7 @@ neo-candy-icons-git
 pacman-hook-kernel-install
 pamac-aur
 sparklines-git
-speedtest-cli
+#speedtest-cli
 ttf-material-design-iconic-font
 wttr
 xcolor
@@ -512,24 +573,7 @@ xcolor
 ####                               NEMESIS REPO CHADWM
 ###########################################################################
 
-alacritty
-edu-chadwm-git
-autorandr
-dash
-dmenu
-feh
-gcc
-lolcat
-make
-picom-git
-polkit-gnome
-rofi
-sxhkd
-ttf-font-awesome
-ttf-jetbrains-mono-nerd
-ttf-meslo-nerd-font-powerlevel10k
-volumeicon
-xorg-xsetroot
+
 
 ananicy-cpp
 cachyos-ananicy-rules-git
