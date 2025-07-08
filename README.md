@@ -1,34 +1,19 @@
-# Kiro iso
+# roman-OS iso
 
-![Kiro Logo](kiro.jpg)
+![roman-OS Logo](roman-OS.jpg)
 
-![Kiro Logo](kiro-xfce.jpg)
+![roman-OS Logo](roman-OS-xfce.jpg)
 
-![Kiro Logo](kiro-chadwm.jpg)
+!roman-OS Logo](roman-OS-chadwm.jpg)
 
-# Download
 
-You can download the latest Kiro ISO from [our SourceForge page](https://sourceforge.net/projects/kiro/files/).
-
-**Kiro** is a customizable Arch Linux ISO builder based on the ArcoLinux project. It provides a simple way to build your own Arch-based installation medium with your choice of packages, settings, and scripts.
-
-Kiro is my personal choice:
+roman-OS mi escritorio personal:
 
 - uefi
 - systemd-boot
 - ext4
 - sddm
 - xfce4 and chadwm
-- a lot of free software
-
-## 🚀 Features
-
-- Fully customizable build process
-- Based on official Arch Linux tools and methodology
-- GUI from https://github.com/calamares/calamares
-- Script-driven: reproducible and automatable
-- Modular structure for easy extension
-- Lightweight and minimal by default
 
 ## Kiro repo
 
