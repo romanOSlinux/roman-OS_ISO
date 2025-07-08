@@ -364,7 +364,7 @@ xapp
 xdg-desktop-portal-gtk
 yt-dlp
 zenity
-#zsh
+zsh
 #zsh-completions
 #zsh-syntax-highlighting
 
@@ -380,36 +380,36 @@ zenity
 #bibata-cursor-theme
 
 ###icons
-numix-icon-theme-git
-numix-circle-icon-theme-git
-sardi-icons
-surfn-icons-git
+#numix-icon-theme-git
+#numix-circle-icon-theme-git
+#sardi-icons
+#surfn-icons-git
 
 ###tools
 mkinitcpio-openswap
 
 ###utilities
 #alacritty
-appstream
-appstream-qt5
+#appstream
+#appstream-qt5
 archlinux-tools
 downgrade
-fastfetch-git
-font-manager
+#fastfetch-git
+#font-manager
 #gitahead
-hardcode-fixer-git
-inxi
-mintstick
+#hardcode-fixer-git
+#inxi
+#mintstick
 #neofetch-git
-paru-git
-python-pyparted
-python-pywal
-rate-mirrors
+#paru-git
+#python-pyparted
+#python-pywal
+#rate-mirrors
 sublime-text-4
-the_silver_searcher
+#the_silver_searcher
 #visual-studio-code-bin
-wttr
-yad
+#wttr
+#yad
 #yay-git
 
 ###########################################################################
@@ -428,7 +428,8 @@ adobe-source-han-sans-cn-fonts
 ###########################################################################
 
 accountsservice
-sddm-git
+#sddm-git
+plasma-login-manager
 
 ###########################################################################
 ####                           DESKTOP MANAGERS
@@ -487,28 +488,28 @@ firefox-ublock-origin
 brave-bin
 btop
 devtools
-fd
-fish
+#fd
+#fish
 inetutils
-menulibre
+#menulibre
 mkinitcpio-firmware
-most
-mugshot
-namcap
-noto-fonts-emoji
-pacmanlogviewer
-pacquery
-python-pylint
-ripgrep
-ripgrep-all
-sparklines-git
-time
-tldr
-ttf-ms-fonts
-ttf-font-awesome
-ttf-jetbrains-mono-nerd
-variety
-vimix-cursors
+#most
+#mugshot
+#namcap
+#noto-fonts-emoji
+#pacmanlogviewer
+#pacquery
+#python-pylint
+#ripgrep
+#ripgrep-all
+#sparklines-git
+#time
+#tldr
+#ttf-ms-fonts
+#ttf-font-awesome
+#ttf-jetbrains-mono-nerd
+#variety
+#vimix-cursors
 #yad
 
 ###########################################################################
@@ -537,8 +538,8 @@ chaotic-mirrorlist
 #edu-qtile-git
 #edu-surfn-numixs-blue-git
 #edu-vimix-dark-tela-git
-arc-gtk-theme
-archlinux-logout-git
+#arc-gtk-theme
+#archlinux-logout-git
 #archlinux-tweak-tool-git
 #edu-arc-dawn-git
 #edu-arc-kde
@@ -556,18 +557,18 @@ archlinux-logout-git
 #edu-shells-git
 #edu-variety-config-git
 #edu-xfce-git
-flameshot-git
-gitahead-git
-hardcode-fixer-git
-lastpass
-neo-candy-icons-git
-pacman-hook-kernel-install
-pamac-aur
-sparklines-git
+#flameshot-git
+#gitahead-git
+#hardcode-fixer-git
+#lastpass
+#neo-candy-icons-git
+#pacman-hook-kernel-install
+#pamac-aur
+#sparklines-git
 #speedtest-cli
-ttf-material-design-iconic-font
-wttr
-xcolor
+#ttf-material-design-iconic-font
+#wttr
+#xcolor
 
 ###########################################################################
 ####                               NEMESIS REPO CHADWM
